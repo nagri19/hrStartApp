@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, Tahoma;
+            font-size: 11pt;
+        }
+    </style>
+
+</head>
+<body>
+    <table width="720" border="0">
+        <tr>
+            <td>
+                <img src="{HeaderImageUrl}" style='height:100px;width:720px' />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td style="padding-right:20px">TO:</td>
+                        <td>{FirstName} {LastName}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right:20px">FROM:</td>
+                        <td>{FROM}</td>
+                    </tr>
+                    <tr>
+                        <td style="padding-right:20px">SUBJECT:</td>
+                        <td>New Well Information Uploaded</td>
+                    </tr>
+                </table>
+            <td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+                <i>You are receiving this message because you are a Halliburton XSpace user who has new well data available for review.</i>
+                <br />
+                <br />
+                <span>
+                    {FirstName} {LastName},<br /><br />
+                    Well data has been delivered to the {Well} well {Company} in the <b>{Field}</b> field.
+                    The data was uploaded to {Folders}<br /><br />
+                    Uploader Comments:<b>{Comments}</b><br /><br />
+                    <a style="font-size:14pt; color:darkblue" href="{Url}">Click here to access the uploaded files.</a>
+                    <br /><br />
+                    Uploaded files include:<br /><br />
+                    {Files}
+                    <br /><br /><br />
+                    <b>XSpace Support</b><br /><br />
+                    713-839-4315, option 3<br />
+                    <a style="color:#00008B" href="mailto:frtocdh@halliburton.com" target="_top">frtocdh@halliburton.com</a><br />
+                </span>
+                <br />
+                <br />
+            <td>
+        <tr>
+
+        <tr>
+            <td>
+                <b>Note: </b>This is an automatically generated email. Do not reply.
+            </td>
+        </tr>
+
+        <tr>
+            <td style="filter:progid:DXImageTransform.Microsoft.Gradient (endColorstr='#ffffff', startColorstr='#A3B3BF', gradientType='1'); font-family: Arial, Tahoma; font-size:10px; height:1px; background-color:#A3B3BF; color:#ffffff; text-align:right;"></td>
+        <tr>
+        <tr style="text-align:right">
+            <td><img src="{footerImageUrl}" style='height:25px;width:250px' /></td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
